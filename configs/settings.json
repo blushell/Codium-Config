@@ -1,0 +1,122 @@
+{
+	/* =========== VSCODE =========== */
+	"telemetry.telemetryLevel": "off",
+	"extensions.ignoreRecommendations": false,
+	"git.decorations.enabled": false,
+	"scm.diffDecorations": "none",
+	//"security.workspace.trust.untrustedFiles": "open",
+	"security.workspace.trust.enabled": false,
+	"breadcrumbs.enabled": true,
+	"settingsSync.ignoredSettings": ["editor.fontFamily"],
+	"git.openRepositoryInParentFolders": "always",
+	"git.confirmSync": false,
+	"git.enableSmartCommit": false,
+	"git.autofetch": false,
+	/* =========== WORKBENCH =========== */
+	"workbench.startupEditor": "none",
+	"workbench.editor.enablePreview": false,
+	"workbench.layoutControl.enabled": false,
+	"workbench.tips.enabled": false,
+	/* =========== EDITOR =========== */
+	"editor.mouseWheelZoom": false,
+	"editor.minimap.enabled": false,
+	//"editor.guides.indentation": false,
+	"editor.renderWhitespace": "none",
+	"editor.lightbulb.enabled": true,
+	"editor.cursorBlinking": "blink",
+	//"editor.cursorSmoothCaretAnimation": "on",
+	"editor.accessibilitySupport": "off",
+	"editor.linkedEditing": true,
+	"editor.wordWrap": "on",
+	"editor.wordSeparators": "`~!@$%^&*()=+[{]}\\|;:'\",<>/.?",
+	"editor.formatOnSave": true,
+	"editor.multiCursorModifier": "alt",
+	"editor.codeLens": false,
+	"editor.codeActionsOnSave": {
+		//"source.fixAll": true,
+		//"source.sortImports": true
+	},
+	/* =========== EXPLORER =========== */
+	"explorer.openEditors.visible": 1,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.confirmDelete": false,
+	"explorer.compactFolders": false,
+	"files.insertFinalNewline": true,
+	//"files.autoSave": "afterDelay",
+	/* =========== THEMES =========== */
+	"workbench.colorTheme": "Dracula",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.productIconTheme": "fluent-icons",
+	"material-icon-theme.hidesExplorerArrows": true,
+	"workbench.tree.renderIndentGuides": "none",
+	"editor.overviewRulerBorder": false,
+	"editor.scrollbar.horizontalScrollbarSize": 12,
+	"editor.scrollbar.verticalScrollbarSize": 12,
+	"workbench.colorCustomizations": {
+		//"terminal.foreground": "#7076F9"
+	},
+	/* =========== FONT =========== */
+	"editor.fontFamily": "Fira Code",
+	"editor.fontSize": 15,
+	"editor.lineHeight": 1.4,
+	"editor.fontWeight": "normal",
+	"editor.fontLigatures": true,
+	//"editor.tabSize": 2,
+	"editor.tabSize": 4,
+	"editor.detectIndentation": false,
+	/* =========== TERMINAL =========== */
+	"terminal.integrated.profiles.windows": {
+		"GitBash": {
+			"path": "W:\\Program Files\\Git\\bin\\bash.exe",
+			"icon": "terminal-bash"
+		}
+	},
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+	"debug.console.fontFamily": "MesloLGM Nerd Font",
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.fontWeight": "bold",
+	"terminal.integrated.tabs.enabled": false,
+	"terminal.integrated.lineHeight": 1.2,
+	"terminal.integrated.cursorStyle": "block",
+	"terminal.integrated.cursorStyleInactive": "block",
+	/* =========== SUGGESTIONS =========== */
+	"editor.snippetSuggestions": "bottom",
+	"editor.inlineSuggest.enabled": true,
+	"editor.suggestSelection": "first",
+	"editor.tabCompletion": "onlySnippets",
+	"tabnine.experimentalAutoImports": true,
+	/* =========== BRACKETS =========== */
+	//"editor.guides.bracketPairs": true,
+	//"editor.guides.bracketPairsHorizontal": false,
+	"editor.matchBrackets": "always",
+	"editor.guides.bracketPairs": "active",
+	"editor.guides.bracketPairsHorizontal": "active",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+	"editor.autoClosingBrackets": "always",
+	/* =========== SEARCH =========== */
+	"search.exclude": {
+		"**/node_modules/*": true
+	},
+	//"search.useIgnoreFiles": false,
+	/* =========== PRETTIER =========== */
+	//"prettier.requireConfig": true,
+	"prettier.arrowParens": "always",
+	"prettier.bracketSpacing": true,
+	"prettier.proseWrap": "never",
+	"prettier.semi": true,
+	"prettier.singleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	/* =========== EXTENSIONS =========== */
+	"liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+	"liveServer.settings.donotVerifyTags": true,
+	"workspaceSidebar.folder": "W:\\Workspaces",
+	"workspaceSidebar.showFolderHierarchy": false,
+	"workspaceSidebar.actions": "New Window",
+	"cSpell.userWords": ["Fortwars"],
+	"cSpell.ignoreWords": ["Noti", "touchportal"],
+	"terminal.integrated.env.windows": {}
+}
